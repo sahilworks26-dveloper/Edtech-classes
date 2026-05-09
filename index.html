@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Cheat Sheet Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <h1>My Website</h1>
+      {% comment %} Navbar {% endcomment %}
+      <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="Rest.html">Contact</a>
+      </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <!-- SECTION -->
+      <section>
+        <h2>Text & Formatting</h2>
+        <h5>I am a beginner</h5>
+        <strong>I am a beginner</strong>
+        <p>This is a <strong>bold</strong> and <em>italic</em> text.</p>
+        <p>Here is <mark>highlighted</mark> text.</p>
+        <p>Water formula: H<sub>2</sub>O</p>
+        <p>Math: 2<sup>2</sup> = 4</p>
+        <hr />
+      </section>
+
+      <!-- IMAGE -->
+      <section>
+        <h2>Image</h2>
+        <img
+          src="https://eu-images.contentstack.com/v3/assets/blt69509c9116440be8/blt8ffb90a2f64bacfa/6776f4544b281ca5e2bc465a/cyber"
+          alt="Sample Image"
+        />
+      </section>
+
+      <!-- LISTS -->
+      <section>
+        <h2>Lists</h2>
+        <ol>
+          <li>Unordered Item 1</li>
+          <li>Unordered Item 2</li>
+        </ol>
+
+        <ul>
+          <li>Ordered Item 1</li>
+          <li>Ordered Item 2</li>
+        </ul>
+      </section>
+
+      <!-- TABLE -->
+      <section>
+        <h2>Table</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Sahil</td>
+              <td>21</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- FORM -->
+      <section>
+        <h2>Form</h2>
+        <form>
+          <label>Name:</label>
+          <input type="text" placeholder="Enter name" /><br /><br />
+
+          <label>Email:</label>
+          <input type="email" /><br /><br />
+
+          <label>Message:</label><br />
+          <textarea></textarea><br /><br />
+
+          <label>Choose:</label>
+          <select>
+            <option>Option 1</option>
+            <option>Option 2</option></select
+          ><br /><br />
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <!-- MEDIA -->
+      <section>
+        <h2>Video</h2>
+        <video controls width="300">
+          <source src="sample.mp4" type="video/mp4" />
+        </video>
+      </section>
+
+      <!-- DETAILS -->
+      <section>
+        <h2>Extra</h2>
+        <details>
+          <summary>Click to expand</summary>
+          <p>This is hidden content.</p>
+        </details>
+      </section>
+    </main>
+
+    <!-- SIDEBAR -->
+    <aside>
+      <h3>Sidebar</h3>
+      <p>Extra info</p>
+    </aside>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy; 2026 My Website</p>
+    </footer>
+  </body>
+</html>
